@@ -2,14 +2,14 @@ from tkinter import *
 import time
 
 def convert():
-    opCodes = {'sw':'000',
-            'j':'001',
-            'slt':'010',
-            'lw':'011',
-            'divi':'100',
-            'andi':'101',
-            'muli':'110',
-            'and':'111'}
+    opCodes = {'sw':'101',
+            'j':'111',
+            'slt':'001',
+            'lw':'110',
+            'divi':'011',
+            'andi':'100',
+            'muli':'010',
+            'and':'000'}
 
     registers = {
             "$zero": "0000",
